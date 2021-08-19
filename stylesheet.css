@@ -6,6 +6,23 @@ html {
     box-sizing: inherit;
 }
 
+
+
+.top-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+       
+}
+
+.kontakt-bio {
+    background-color: rgb(180, 220, 180);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
 .pic-top {
     /* width: 400px;  Sobald width eingefügt, funktioniert justify-content nicht mehr*/ 
     display: flex;
