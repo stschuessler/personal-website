@@ -5,3 +5,20 @@ html {
 * {
     box-sizing: inherit;
 }
+
+.interessen-fähigkeiten {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.list {
+    margin: 10px;
+    padding: 10px 20px 0px 10px;
+    background-color: rgb(181, 219, 181); */
+}
+
+.h2-list {
+    margin-top: 0px;
+}
+
