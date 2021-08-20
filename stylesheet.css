@@ -6,6 +6,15 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*width: 60vw;*/
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .top-nav {
@@ -14,6 +23,7 @@ html {
     margin: 5px;
        
 }
+
 
 .kontakt-bio {
     background-color: rgb(180, 220, 180);
@@ -24,7 +34,6 @@ html {
 
 
 .pic-top {
-    /* width: 400px;  Sobald width eingefügt, funktioniert justify-content nicht mehr*/ 
     display: flex;
     justify-content: center;
     border-radius: 10px;
