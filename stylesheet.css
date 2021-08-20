@@ -68,6 +68,7 @@ header {
 .kontakt {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .phone-logo {
@@ -78,15 +79,10 @@ header {
     width: 5rem;
 }
 
-.referenz{
-    display: flex;
-    flex-direction: row;
-}
-
 .github-logo {
-    width: 10rem;
+    width: 3rem;
 }
 
 .xing-logo {
-    width: 10rem;
+    width: 3rem;
 }
