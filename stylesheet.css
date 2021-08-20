@@ -25,7 +25,7 @@ header {
 }
 
 
-.kontakt-bio {
+.kontakt-bio-nav {
     background-color: rgb(180, 220, 180);
     padding: 10px;
     margin: 5px;
@@ -65,3 +65,23 @@ header {
     margin-top: 0px;
 }
 
+.kontakt {
+    display: flex;
+    flex-direction: row;
+}
+
+.phone-logo {
+    width: 1.5rem;
+}
+
+.email-logo {
+    width: 5rem;
+}
+
+.github-logo {
+    width: 10rem;
+}
+
+.xing-logo {
+    width: 10rem;
+}
