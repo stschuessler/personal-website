@@ -61,6 +61,13 @@ header {
     
 }
 
+.list>li {
+    background-color: blue;
+    margin: 5px;
+    list-style: none;
+    border-radius: 5px;
+}
+
 .h2-list {
     margin-top: 0px;
 }
