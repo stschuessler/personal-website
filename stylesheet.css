@@ -46,6 +46,46 @@ header {
     border-color: rgb(180, 220, 180);
 }
 
+.panel {
+    display: flex;
+    align-items: center;
+    
+}
+
+.panel-p {
+    padding: 1rem;
+    background-color: rgb(76, 194, 180, 76);
+    display: inline-block;
+    border-radius: 2rem 0rem;
+    border: solid; /* brauche ich die Border hier?*/
+    border-width: 0.8rem 0.4rem; /* brauche ich die width hier?*/
+    border-color: rgb(76, 194, 180, 76);
+    box-shadow: rgba(76, 194, 180, 0.3) 0.5rem 0.8rem 0.5rem
+    /* flex-grow: 1 */
+    
+}
+
+.panel-connection {
+    color: rgb(76, 194, 180, 76);
+    background-color: rgb(76, 194, 180, 76);
+    display: inline-block;
+    padding: 0rem;
+    /* flex-grow: 2 */
+}
+
+.list-interessen {
+    padding: 2rem;
+    background-color: rgb(48, 122, 114, 48);
+    border-radius: 2rem 0rem;
+    border: solid;
+    border-width: 0.8rem 0.4rem;
+    border-color: rgb(76, 194, 180, 76);
+    box-shadow: rgba(76, 194, 180, 0.3) 0.5rem 0.8rem 0.5rem 0.2rem;
+  
+    /* flex-grow: 1 */
+}
+
+/*
 .interessen-fähigkeiten {
     display: flex;
     justify-content: center;
@@ -58,7 +98,7 @@ header {
     padding: 10px 20px 0px 10px;
     background-color: rgb(180, 220, 180);
     border-radius: 10px;
-    
+   
 }
 
 .list>li {
@@ -71,6 +111,8 @@ header {
 .h2-list {
     margin-top: 0px;
 }
+
+*/
 
 .kontakt {
     display: flex;
