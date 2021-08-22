@@ -75,7 +75,7 @@ header {
     /* flex-grow: 2 */
 }
 
-.list-interessen {
+.list-interessen, .list-fähigkeiten{
     padding: 2rem;
     background-color: rgb(48, 122, 114, 48);
     border-radius: 2rem 0rem;
