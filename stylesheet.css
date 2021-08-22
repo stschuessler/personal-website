@@ -34,13 +34,14 @@ header {
     box-shadow: rgba(227, 218, 213, 0.3) 0.5rem 0.8rem 0.5rem
 }
 
-.panel-connection-top {
+
+    .panel-connection-top {
     writing-mode: vertical-lr;
     color: rgb(226, 211, 205, 76);
     background-color: rgb(226, 211, 205, 76);
-    display: inline-block;
-    
+    display: inline-block;    
 }
+
 
 .top-nav {
     height: 3.2rem;
