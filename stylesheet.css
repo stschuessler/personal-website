@@ -9,7 +9,10 @@ html {
 body {
     /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
-    /*width: 60vw;*/
+    max-width: 50vw;
+    padding-right: 4vw;;
+    padding-left: 4vw;
+
 }
 
 
@@ -79,7 +82,7 @@ header {
     
 }
 
-.panel-p, .pic-sarah{
+.panel-p{ 
     padding: 1rem;
     background-color: rgb(76, 194, 180, 76);
     display: inline-block;
@@ -88,12 +91,28 @@ header {
     border-width: 0.8rem 0.4rem; /* brauche ich die width hier?*/
     border-color: rgb(76, 194, 180, 76);
     box-shadow: rgba(76, 194, 180, 0.3) 0.5rem 0.8rem 0.5rem
-    /* flex-grow: 1 */
-    
+    /* flex-grow: 1 */    
 }
 
+
+
+.pic-sarah {
+    width: 20vw;
+    background-color: rgb(76, 194, 180, 76);
+    display: inline-block;
+    border-radius: 2rem 0rem;
+    border: solid; /* brauche ich die Border hier?*/
+    border-width: 0.8rem 0.4rem; /* brauche ich die width hier?*/
+    border-color: rgb(76, 194, 180, 76);
+    box-shadow: rgba(76, 194, 180, 0.3) 0.5rem 0.8rem 0.5rem 
+}
+
+
+
+
 .panel-connection {
-    width: 30vw;
+    max-width: 40vw;
+    min-width: 10vw;
     color: rgb(76, 194, 180, 76);
     background-color: rgb(76, 194, 180, 76);
     display: inline-block;
