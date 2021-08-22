@@ -35,18 +35,15 @@ header {
 }
 
 
-.pic-top {
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-}
 
+/*
 .pic-sarah {
     width: 350px;
     border-radius: 10px;
     border-style: solid;
     border-color: rgb(180, 220, 180);
 }
+*/
 
 .panel {
     display: flex;
@@ -54,7 +51,7 @@ header {
     
 }
 
-.panel-p {
+.panel-p, .pic-sarah{
     padding: 1rem;
     background-color: rgb(76, 194, 180, 76);
     display: inline-block;
