@@ -11,6 +11,10 @@ body {
     /*width: 60vw;*/
 }
 
+
+/* header Abschnitt -------------------------------------------------*/
+
+
 header {
     display: flex;
     flex-direction: column;
@@ -34,7 +38,7 @@ header {
     border-radius: 10px;
 }
 
-
+/* main Abschnitt -------------------------------------------------*/
 
 /*
 .pic-sarah {
@@ -111,4 +115,11 @@ header {
 
 .lebenslauf {
     color: rgb(48, 122, 114, 48);
+}
+
+
+/* footer Abschnitt -------------------------------------------------*/
+
+footer {
+    background-color: rgb(76, 194, 180, 76)
 }
