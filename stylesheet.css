@@ -72,7 +72,7 @@ header {
     /* flex-grow: 2 */
 }
 
-.list-interessen, .list-fähigkeiten{
+.list-interessen, .list-fähigkeiten, .biografie-panel-box3{
     padding: 2rem;
     background-color: rgb(48, 122, 114, 48);
     border-radius: 2rem 0rem;
@@ -84,34 +84,6 @@ header {
     /* flex-grow: 1 */
 }
 
-/*
-.interessen-fähigkeiten {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    
-}
-
-.list {
-    margin: 10px;
-    padding: 10px 20px 0px 10px;
-    background-color: rgb(180, 220, 180);
-    border-radius: 10px;
-   
-}
-
-.list>li {
-    background-color: blue;
-    margin: 5px;
-    list-style: none;
-    border-radius: 5px;
-}
-
-.h2-list {
-    margin-top: 0px;
-}
-
-*/
 
 /*
 .kontakt {
