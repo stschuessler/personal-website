@@ -9,8 +9,7 @@ html {
 body {
     /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.3rem;
-    max-width: 50vw;
+    font-size: 0.9rem;
     padding-right: 4vw;;
     padding-left: 4vw;
 }
@@ -100,7 +99,6 @@ header {
 .panel {
     display: flex;
     align-items: center;
-    
 }
 
 .panel-p{ 
@@ -112,14 +110,15 @@ header {
     border: solid; /* brauche ich die Border hier?*/
     border-width: 0.8rem 0.4rem; /* brauche ich die width hier?*/
     border-color: rgb(226, 211, 205, 76);
-    box-shadow: rgba(227, 218, 213, 0.3) 0.5rem 0.8rem 0.5rem
-    /* flex-grow: 1 */    
+    box-shadow: rgba(227, 218, 213, 0.3) 0.5rem 0.8rem 0.5rem;
+    flex-grow: 1;
+
 }
 
 
 
 .pic-sarah {
-    width: 20vw;
+    width: 40vw;
     background-color: rgb(226, 211, 205, 76);
     display: inline-block;
     border-radius: 2rem 0rem;
@@ -129,29 +128,25 @@ header {
     box-shadow: rgba(227, 218, 213, 0.3) 0.5rem 0.8rem 0.5rem 
 }
 
-
-
-
 .panel-connection {
-    max-width: 40vw;
-    min-width: 10vw;
+    width: 20vw;
     color: rgb(226, 211, 205, 76);
     background-color: rgb(226, 211, 205, 76);
     display: inline-block;
     padding: 0rem;
-    /* flex-grow: 2 */
+    flex-grow: 2;
 }
 
 .list-interessen, .list-fähigkeiten, .biografie-panel-box3{
-    padding: 2rem;
+    list-style: none;
+    padding: 1rem;
     background-image: linear-gradient(to top right, white, rgb(227, 218, 213, 48));
     border-radius: 2rem 0rem;
     border: solid;
     border-width: 0.8rem 0.4rem;
     border-color: rgb(226, 211, 205, 76);
     box-shadow: rgba(227, 218, 213, 0.3) 0.5rem 0.8rem 0.5rem 0.2rem;
-  
-    /* flex-grow: 1 */
+    flex-grow: 1;
 }
 
 
